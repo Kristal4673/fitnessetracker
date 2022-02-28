@@ -1,11 +1,15 @@
-
-const mongoose =require('mongoose')
+const mongoose = require("mongoose");
 
 // returns a promise
 function connectDB() {
   mongoose
     .connect(
-      "mongodb+srv://puresoft:Cs232889$@cluster0.eacyz.mongodb.net/FitNessedb?retryWrites=true&w=majority"
+      process.env.MONGODB_URI ||
+        "mongodb+srv://puresoft:Cs232889$@cluster0.b9a9l.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+      {
+        useNewUrlParser: true,
+        useUnifiedTopology: true,
+      }
     )
     .then((data) => {
       console.log("The database was connected!");
