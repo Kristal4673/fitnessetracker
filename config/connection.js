@@ -5,7 +5,7 @@ const mongoose =require('mongoose')
 function connectDB() {
   mongoose
     .connect(
-      "mongodb+srv://soto4673:668464$@cluster0.eacyz.mongodb.net/FitNessedb?retryWrites=true&w=majority"
+      "mongodb+srv://puresoft:Cs232889$@cluster0.eacyz.mongodb.net/FitNessedb?retryWrites=true&w=majority"
     )
     .then((data) => {
       console.log("The database was connected!");
