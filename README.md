@@ -20,7 +20,9 @@ To view FitNesse page run npm start and on browse type localhost:3004. Then you 
 ##  Links 
 
 
-github: https://github.com/Kristal4673/fitnessetracker.git
+youtube video: https://youtu.be/6RnrjDWtH54
+
+github: https://github.com/Kristal4673/fitNesse.git
 
 Heroku: https://fitnessetracker.herokuapp.com/
 
